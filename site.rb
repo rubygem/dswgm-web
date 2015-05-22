@@ -36,10 +36,28 @@ class App < Sinatra::Application
 	end
 
 	get '/' do
+		redirect '/home'
+	end
+
+	get '/home' do
 		erb :home, :layout => :layout
 	end
 
-	get '/about' do
-		erb :about, :layout => :layout
+	get '/create' do
+		erb :create, :layout => :layout
 	end
+
+	get '/publish' do
+		erb :publish, :layout => :layout
+	end
+
+	get '/instructions' do
+		erb :instructions, :layout => :layout
+	end
+
+	get '/neocities' do
+		erb :neocities, :layout => :layout
+	end
+
+	
 end
