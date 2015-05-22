@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html { 
+  background: url('/images/hackmcr.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 10% 5% 10%;
+  background-color: rgba(255,255,255,.5);
+}
+
+.m-b-reset{
+  margin-bottom: 0px !important;
+}
+
+.margin-reset{
+  margin: 0px !important;
+}
+
+.padding-reset{
+  padding: 0px !important;
+}
+
+.ui .message{
+  padding-top: 30px !important;
+  padding-bottom:  50px !important;
+}
+
+.ui.huge.message {
+  background-color: rgba(255,255,255,.1);
+}
+
+.ui.segment {
+    background-color: rgba(255,255,255,0.7);
+}
+
+.m-top-10{
+  margin-top: 10px !important;
+}
+
+.hidden{
+  opacity: 0;
+}
+
+.ui .button{
+  text-transform: capitalize;
+}
