@@ -52,5 +52,10 @@
       ga('create', 'UA-63306057-1', 'auto');
       ga('send', 'pageview');
     </script>
+    <script>
+      $('body').bind('copy paste',function(e) {
+          e.preventDefault(); return false; 
+      });
+    </script>
   </body>
 </html>
