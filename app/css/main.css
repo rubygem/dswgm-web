@@ -50,6 +50,10 @@ body{
   opacity: 0;
 }
 
+.main{
+  margin: 0 2em;
+}
+
 .ui .button{
   text-transform: capitalize;
 }
