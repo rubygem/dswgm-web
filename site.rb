@@ -58,6 +58,14 @@ class App < Sinatra::Application
 	get '/neocities' do
 		erb :neocities, :layout => :layout
 	end
+	
+	get '/gemma' do
+		erb :gemma, :layout => :layout
+	end
+	
+	get '/resources' do
+		erb :resources, :layout => :layout
+	end
 
 	get '/cssintro' do
 		erb :cssintro, :layout => :layout
