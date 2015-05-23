@@ -53,3 +53,20 @@ body{
 .ui .button{
   text-transform: capitalize;
 }
+
+.box{
+  background-color: black;
+  margin:5em;
+ padding:5em 4em 6em 4em;
+}
+
+.heading{
+  background-color: pink;
+  margin-bottom:2em;
+  padding:1em 4em;
+}
+
+.main-content{
+ background-color: green;
+ padding:4em;
+}

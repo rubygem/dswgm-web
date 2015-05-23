@@ -59,5 +59,11 @@ class App < Sinatra::Application
 		erb :neocities, :layout => :layout
 	end
 
-	
+	get '/cssintro' do
+		erb :cssintro, :layout => :layout
+	end
+
+	get '/morecss' do
+		erb :morecss, :layout => :layout
+	end
 end
