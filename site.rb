@@ -71,6 +71,10 @@ class App < Sinatra::Application
 		erb :cssintro, :layout => :layout
 	end
 
+	get '/cssframeworks' do
+		erb :cssframeworks, :layout => :layout
+	end
+
 	get '/morecss' do
 		erb :morecss, :layout => :layout
 	end
