@@ -15,7 +15,7 @@
       <link rel="stylesheet" href="css/main.css">
       <!-- endbuild -->
   </head>
-  <body>
+  <body oncopy="return false" oncut="return false" onpaste="return false">
     <div class='main'>
       <div class="ui huge message margin-reset">
           <h1 class="ui huge header">DSWGM - Web Development</h1>
@@ -24,6 +24,12 @@
       <div class="ui inverted pink menu margin-reset">
         <a class="item" href="home">
           <i class="home icon"></i> Home
+        </a>
+        <a class="item" href="resources">
+          <i class="rocket icon"></i> Resources
+        </a>
+        <a class="item" href="gemma">
+          <i class="user icon"></i> Gemma
         </a>
         <div class="right menu">
           <a class="item" href="http://twitter.com/madlabuk">
@@ -45,6 +51,11 @@
 
       ga('create', 'UA-63306057-1', 'auto');
       ga('send', 'pageview');
+    </script>
+    <script>
+      $('body').bind('copy paste',function(e) {
+          e.preventDefault(); return false; 
+      });
     </script>
   </body>
 </html>
