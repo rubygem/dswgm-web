@@ -5,11 +5,11 @@
       <meta name="description" content="Digital Skills for Women in Greater Manchester - Web Development. Run by Manchester Digital Laboratory.">
       <meta name=viewport content="width=device-width, initial-scale=1">
       <meta name="mobile-web-app-capable" content="yes">
-      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.12.2/semantic.min.css">
+      <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css">
       <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
 
       <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.12.2/semantic.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js"></script>
 
       <!-- build:css styles/main.css -->
       <link rel="stylesheet" href="css/main.css">
@@ -19,7 +19,7 @@
     <div class='main'>
       <div class="ui huge message margin-reset">
           <h1 class="ui huge header">DSWGM - Web Development</h1>
-          <p><!-- Run by <a href='http://madlab.org.uk/'>Madlab</a> -->. Written and run by <a href='twitter.com/ruby_gem'>@ruby_gem</a></p>
+          <p>Written and run by <a href='twitter.com/ruby_gem'>@ruby_gem</a></p>
       </div>
       <div class="ui inverted pink menu margin-reset">
         <a class="item" href="home">
@@ -38,10 +38,10 @@
         </div>
       </div>
       <div class="ui segment">
-        <%=yield%>
+        <div class="content">
+          <%=yield%>
+        <div>
       </div>
-      <div class="ui divider"></div>  
-      <span>by <a href='twitter.com/ruby_gem'>@ruby_gem</a></span>
     </div>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
