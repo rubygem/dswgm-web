@@ -1,4 +1,4 @@
-ruby '2.2.0'
+ruby '3.2.1'
 source 'https://rubygems.org'
 
 gem 'bson_ext'
